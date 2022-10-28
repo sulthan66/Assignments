@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <html>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>Registration Form</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <div class="testbox">
+    <form action="/">
+      <div class="banner">
+        <h1>Registration Form</h1>
+      </div>
+      <div class="item">
+        <p><strong>Student Name</strong></p>
+        <div class="name-item">
+          <input type="text" name="name" placeholder="First" required />
+          <input type="text" name="name" placeholder="Last" required />
+        </div>
+      </div>
+      <div class="item">
+        <p><strong>Email</strong></p>
+        <input type="email" name="email" placeholder="zuri@example.com" required />
+      </div>
+      <div class="item">
+        <p><strong>Phone</strong></p>
+        <input type="text" name="phone" placeholder="### ### ####" required />
+      </div>
+      <div class="item">
+        <p><strong>Date Of Birth</strong></p>
+        <input type="date" name="name" placeholder="Street address" required />
+        <p><strong>Favorite Color</strong></p>
+        <input type="color" name="name" required />
+        <label for="gender"><strong> Gender</strong></label>
+        <select name="gender">
+          <option value="none" selected>Gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+
+        </select>
+        <div class="btn-block">
+          <p>By clicking Register, you agree on our <a href="/">Terms and Conditions</a>.</p>
+          <button type="submit" formaction="success.html">Register</button>
+        </div>
+        <div class="btn-block">
+          <p>Already have an account?<a href="login.html">Login</a></p>
+        </div>
+      </div>
+
+    </form>
+  </div>
+</body>
+
+</html>
